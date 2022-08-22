@@ -1,0 +1,40 @@
+body 
+{
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+}
+
+#survey-form
+{
+    background-color: #CCC;
+}
+label {
+    color: blue;
+    font-weight: bold;
+    width: 130px;
+    float: 50px;
+  
+  }
+input
+{
+    width: 200px;
+    margin-top: 5px;
+}
+
+#submit
+{
+    background-color:chocolate;
+}
+
+#radio
+{
+    width: 10px;
+    padding-bottom: 10px;
+}
+p 
+{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 1px;
+}
