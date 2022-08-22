@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <label id="name-label">Name</label>
+      <input id="name" type="text" placeholder="Enter your name" required><br>
+      <label id="email-label">Email</label>
+      <input id="email" type="email" placeholder="Enter your Email" required><br>
+      <label id="number-label">Age</label>
+      <input id="number" type="number" placeholder="Age" min="18" max="100"><br>
+      <p>Which option best describes your current role?</p>
+      <select id="dropdown" >
+        <option>Part time student </option>
+        <option>Full time student </option>
+        <option>Other </option>
+      
+      </select>
+
+      <p>Are you a student?</p>
+      <input id="radio" type="radio" name = 'name' value="yes" >
+      <label for="yes" name="yes">Yes</label><br>
+      <input id="radio"type="radio"  name = 'name' value="no">
+      <label for="no" name="no">No</label>
+
+      <p>What would you like to see improved? (Check all that apply)</p>
+      <input id="radio" type="checkbox" value="front">
+      <label>Front-end Projects</label> <br>
+      <input id="radio" type="checkbox" value="back">
+      <label>Back-end Projects</label><br>
+
+      <textarea></textarea><br>
+      <button id="submit" type="submit">Submit</button>
+
+    </form> 
+
+
+
+
+
+
+
+
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
